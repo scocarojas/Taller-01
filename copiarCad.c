@@ -24,6 +24,5 @@ int main(int argc, char *argv[]){
 	char *cad1=argv[1];
 	char *cad2=argv[2];
 	int n=copiaCadena(cad1,cad2);
-
 	printf("%d",n);
 }
