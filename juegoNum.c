@@ -15,7 +15,6 @@ void main(){
 	historial[indice]=jugador1;
 	historial[indice+1]=jugador2;
 	
-
 	while(jugador1!=numM||jugador2!=numM){
 		if(jugador1>numM){
 			printf("Es menor que el primer número\n");
