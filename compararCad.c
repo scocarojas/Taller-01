@@ -22,8 +22,6 @@ int compararCad(char *cad1, char *cad2){
 		}
 	}
 }
-
-
 int main(int argc, char *argv[]){
 
 	char *cad1=argv[1];
