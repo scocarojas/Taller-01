@@ -1,13 +1,8 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <string.h>
 
 char* mayusculas(char *origen){
-
-	
-	
 		
 	int i;
 	int n=strlen(origen);
@@ -19,12 +14,8 @@ char* mayusculas(char *origen){
 	}
 	printf("%s",origen);	
 }
-
-
 char* main(int argc, char *argv[]){
 
-
-	char *cad1=argv[1];
-	
+	char *cad1=argv[1];	
 	mayusculas(cad1);
 }
